@@ -13,8 +13,7 @@ def search(query, num_results=5):
 
 
 def open_in_browser(link):
-    webbrowser.open(link, new=2)
-
+    webbrowser.open(link, new=-2)
 
 def main():
     query = input("Enter your search query: ")
